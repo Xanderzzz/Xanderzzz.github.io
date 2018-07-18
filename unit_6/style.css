@@ -1,0 +1,76 @@
+body{
+    background-color: #000000;
+}
+
+header {
+  background-color: #6699ff;
+  font-size: 24px;
+  font-family: 'lora', serif;
+  text-align: center;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+img {
+  float:left;
+  padding: 12px;
+}
+
+article p {
+  line-height: 2em;
+}
+
+footer {
+  background-color:#ff957E;
+  border: 1px black solid;
+  padding: 20px;
+  text-align: right;
+}
+
+#two_column {
+  background-color: #aaaaaa;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+#description{
+  background-color: #00CC66;
+  border: 1px black solid;
+  padding: 20px;
+  float:left;
+  width: 40%;
+  line-height: 2em;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#services{
+  background-color: #E55B88;
+  border: 1px black solid;
+  padding: 20px;
+  float: right;
+  width: 52%;
+}
+
+#wrapper {
+  background-color: #737373;
+  border: 1px black solid;
+  padding: 20px;
+  margin: 4em;
+}
+
+#slogan {
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 18px;
+  font-family:'Lora', serif;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
