@@ -1,0 +1,109 @@
+body{
+    background-color: #000000;
+}
+
+header {
+  background-color: #6699ff;
+  font-size: 24px;
+  font-family: 'lora', serif;
+  text-align: center;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+img {
+  float:left;
+  padding: 12px;
+}
+
+article p {
+  line-height: 2em;
+}
+
+footer {
+  background-color:#ff957E;
+  border: 1px black solid;
+  padding: 20px;
+  text-align: right;
+}
+
+nav {
+  font-size: 18px;
+}
+
+nav a {
+  text-decoration: none;
+  border: 1px black solid;
+  padding: 1em;
+  display: inline-block;
+  margin-top: 1em;
+  margin-left: 1.8em;
+  background-color: #ffff80;
+  color: #000000;
+  width: 25%;
+  font-weight: bold;
+}
+
+#two_column {
+  background-color: #aaaaaa;
+  border: 1px black solid;
+  padding: 20px;
+}
+
+#description{
+  background-color: #00CC66;
+  border: 1px black solid;
+  padding: 20px;
+  float:left;
+  width: 40%;
+  line-height: 2em;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#services{
+  background-color: #E55B88;
+  border: 1px black solid;
+  padding: 20px;
+  float: right;
+  width: 52%;
+}
+
+#wrapper {
+  background-color: #737373;
+  border: 1px black solid;
+  padding: 20px;
+  margin: 4em;
+}
+
+#slogan {
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 18px;
+  font-family:'Lora', serif;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+@media only screen and (min-width: 400px) and (max-width:1277px){
+  nav {
+    margin-right: 2em;
+  }
+
+  aside {
+   margin: 0 29%;
+  }
+
+ #services {
+   float: none;
+   display:inline-block;
+   margin: 1.15em 23%;
+ }
+}
