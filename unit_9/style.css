@@ -1,0 +1,150 @@
+body{
+    font-family: 'lora', serif;
+    background-color: #000000;
+}
+
+header{
+  background-color: #000000;
+}
+
+h1, h2 {
+  font-weight: 800;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 32px;
+  color: #ff2E30;
+}
+
+h2 {
+  font-size: 26px;
+  padding: 13px 0;
+  color: #37ED00;
+}
+
+p{
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float:left;
+  font-size: 24px;
+  width: 50%;
+  height: 100px;
+  outline: 2px solid #222222;
+  text-align: center;
+  line-height: 100px;
+  color: black;
+  background: #37ED00;
+  font-weight: bold;
+}
+
+div {
+  padding: 30px;
+}
+
+nav {
+  font-size: 22px;
+  float: right;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ff2E30;
+  margin: 30px;
+  display: inline-block;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px solid #47ED00;
+  padding: 18px 0;
+  margin-top: 40px;
+  clear: both;
+  color: #37ED00;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  width: 840px;
+}
+
+section {
+  background: #222222;
+  color: white;
+  overflow: auto;
+}
+
+#hero {
+  background: #000000;
+}
+#about {
+  font-size: 28px;
+  width: 40%;
+  display: inline-block;
+}
+
+#services {
+  font-size: 28px;
+  width: 40%;
+  float: right;
+}
+
+#slogan {
+  margin: 0;
+  padding:0;
+  color: #37ED00;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight:bold;
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    display: block;
+    text-align: center;
+    }
+
+  nav {
+    float: none;
+    text-align: center;
+  }
+
+  nav a {
+    margin: 1em 0;
+    padding: 0 1em;
+
+  }
+
+  img {
+  	width: 380px;
+  }
+
+  li{
+    float:none;
+    width: 100%;
+  }
+
+  #services{
+    float: none;
+  }
+
+  #services, #about {
+    text-align: center;
+    width: 90%;
+
+  }
+
+}
